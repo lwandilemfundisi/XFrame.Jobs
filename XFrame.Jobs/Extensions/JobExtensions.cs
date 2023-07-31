@@ -16,6 +16,7 @@ namespace XFrame.Jobs.Extensions
         public static void AddJobRunner(
             this IServiceCollection services)
         {
+            services.TryAddSingleton<IJobDefinitionService, JobDefinitionService>();
             services.TryAddTransient<IJobRunner, JobRunner>();
         }
 
