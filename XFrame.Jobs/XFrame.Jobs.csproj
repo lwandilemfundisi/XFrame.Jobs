@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
 	<PackageId>XFrame.Jobs</PackageId>
-	<Version>7.0.0</Version>
+	<Version>7.0.1</Version>
 	<Authors>Lwandile Mfundisi</Authors>
 	<Description>XFrame.Jobs is a project dedicated to make job scheduling easy and clean</Description>
 	<IsPackable>true</IsPackable>
